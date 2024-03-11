@@ -6,6 +6,7 @@
     top: 55px;
     width: 70px;
     z-index: 200;
+    overflow: scroll;
     
     
 }
