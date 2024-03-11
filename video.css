@@ -1,0 +1,96 @@
+    .vid-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        column-gap: 15px;
+        row-gap:40px;
+    }
+    @media(max-width:750px){
+        .vid-grid{
+            grid-template-columns: 1fr 1fr;
+        }
+    
+    }
+    @media(min-width:999)and(max-width:751){
+        .vid-grid{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    
+    }
+    @media(min-width:1000px) {
+        
+            .vid-grid{
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+        
+    }
+    .whole-div{
+        transition: scale 0.5s,background-color 0.5s,opacity 0.5s,border-radius 0.5s;
+        display:inline-block; 
+        size: 300px; 
+        
+        
+    }
+    .thum-div{
+        margin-bottom: 10px; 
+        position: relative;
+    }
+    
+    .thumb{
+        
+        width: 100%;
+    }
+    .down-thum-whole-div-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+    }
+    .channal-profile-div{
+        vertical-align: top;
+    }
+    .profile-pic{
+        border-radius: 90px;
+        height: 35px; 
+    }
+    .vid-info-div{
+        
+    }
+
+    .vid-title{
+        display:block;
+        font-weight: 600;
+        margin: 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .vid-author,.vid-stats{
+        color: rgb(96, 96, 96);
+        font-size: 12px;
+        line-height: 10px;
+        margin: 0;
+        
+    }
+    .vid-info-div p{
+        margin-bottom: 9px;
+    }
+    .whole-div-2:hover{
+        scale: 1.04;
+        background-color: rgb(208, 208, 208);
+        border-radius: 10px;
+        opacity: 0.9;
+        
+
+    }
+    .vid-time{
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 8px;
+        right: 6px;
+        font-family: arial;
+        font-size: 12px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: 3px;
+        font-weight: bold;
+    }   
