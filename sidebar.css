@@ -10,6 +10,10 @@
     white-space: nowrap;
     backdrop-filter: blur(5px);
     cursor: pointer;
+    border-right-color:black;
+    border-right-width:1px;
+    border-right-style:solid;
+    
 }
 .sidebar-link{
     height: 76px;
