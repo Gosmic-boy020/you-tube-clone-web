@@ -1,6 +1,7 @@
 p{
     font-family: arial;
 }
+@media (min-width :750px){
 body{
     background-color: rgba(0, 0, 0, 0.04);
     margin:0px;
@@ -9,4 +10,5 @@ body{
     padding-right:24px;
     padding-bottom: 1000px;
    
+}
 }
