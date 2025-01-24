@@ -3,100 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>me-tube</title>
+    <title>youtube</title>
     <link rel="stylesheet" href="video.css">
     <link rel="stylesheet" href="Header.css">
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="sidebar.css">
+    <link rel="icon" href="thumbnails/youtube-logo.svg">
     <style>
     </style>
 </head>
 <body> 
-    <div class="header">
-        <div class="left-hed-section">
-            <img class="hamburger-menu" src="thumbnails/hamburger-menu.svg" alt="#">
-            <img class="youtube-logo" src="thumbnails/youtube-logo.svg" alt="#">
-
-        </div>
-        <div class="middle-hed-section">
-                <input type="text" placeholder="Search" class="searchbar">
-            <button class="search-button">
-                <a href="#" title="hello">
-                    <img class="search-button-icon" src="thumbnails/search.svg" alt="" >
-                </a>
-                
-                <div class="tool-tip">Search</div>
-            </button>
-
-            <button class="voice-search-button">
-                <img class="voice-search-button-icon" src="thumbnails/voice-search-icon.svg" alt="">
-                <div class="tool-tip">Search With Your Voice</div>
-            </button>
-        </div>
-        
-        <div class="right-hed-section">
-            <div class="upload-icon-container">
-                <img class="upload-icon" src="thumbnails/upload.svg" alt="#">
-                <div class="tool-tip">Creat</div>
-            </div>
-            <div class="youtube-apps-icon-container">
-                <img class="youtube-apps-icon" src="thumbnails/youtube-apps.svg" alt="#">
-                <div class="tool-tip">YouTubeApps</div>
-            </div>
-            
-            <div class="notification-div">
-                <img class="notifications-icon" src="thumbnails/notifications.svg" alt="#">
-                <div class="notification-count">3</div>
-                <div class="tool-tip">Notifications</div>
-            </div>
-            
-            <img class="profile-pic-icon" src="thumbnails/profilr-icon.jpg" alt="fu">
-
-        </div>
-
-        
-    </div>
-    <div class="sidebar">
-        <div class="sidebar-link">
-            <img src="thumbnails/home.svg" alt="">
-            <div>Home</div>
-        </div>
-        <div class="sidebar-link">
-            <img src="thumbnails/explore.svg" alt="">
-            <div>Explore</div>
-        </div>
-        <div class="sidebar-link">
-            <img src="thumbnails/subscriptions.svg" alt="">
-            <div>Subscriptions</div>
-        </div>
-        <div class="sidebar-link">
-            <img src="thumbnails/originals.svg" alt="">
-            <div>originals</div>
-        </div>
-        <div class="sidebar-link">
-            <img src="thumbnails/youtube-music.svg" alt="">
-            <div>youtube music</div>
-        </div>
-        <div class="sidebar-link">
-            <img src="thumbnails/library.svg" alt="">
-            <div>library</div>
-        </div>
-        
-        <div class="sidebar-link">
-            <a href="Create.html" style="scale:1.8; text-decoration: none;" id="ad">+</a>
-        </div>
-    </div>
-    
+    <div class="header"></div>
+    <div class="sidebar"></div>
     <div class="vid-grid" ></div> 
-    <input type="text" class="input-1" placeholder="videoLink">
-    <input type="text" class="input-2" placeholder="Thumbnail Path">
-    <input type="text" class="input-3" placeholder="RunTime">
-    <input type="text" class="input-4" placeholder="ProfilePtah">
-    <input type="text" class="input-5" placeholder="Title">
-    <input type="text" class="input-6" placeholder="ChannelName">
-    <input type="text" class="input-7" placeholder="Stats">
-    <input type="submit" value="Add" id="Add">
+    
     <script type="module" src="main.js"></script>
+    <script src="header.js"></script>
     
 
 </body>
