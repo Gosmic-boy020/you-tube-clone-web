@@ -141,3 +141,8 @@
     rotate: 90deg;
     font-weight: 700;
   }
+ hr{
+    position: relative;
+    bottom: 30px;
+    border: 1px solid rgb(197, 197, 197);
+  }
