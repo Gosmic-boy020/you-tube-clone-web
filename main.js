@@ -14,6 +14,7 @@ function renderpage(){
     
       const html=`
       <div class="whole-div">
+      <hr>
             <div class="thum-div">
                 <a href="${link}" target="_self" width="500px" height="500px">
                 <img class="thumb" src="${thumbpath}" alt="error"></a>
